@@ -3,3 +3,16 @@
 h1{
     color:#ff3368
 }
+.para{
+    color:green;
+}
+ #btn{
+    background-color:#ff3368;
+    color:white 
+}
+
+#btn:hover{
+    background-color:grey;
+    color:black;
+    
+}
