@@ -15,18 +15,18 @@ section {
   height: 100vh;
 
   display: flex;              /* Flexbox for centering */
-  justify-content: center;    /* Horizontal center */
-  align-items: center;        /* Vertical center */
-
+   justify-content: center;    /* Horizontal center */
+  align-items: center;        /*Vertical center */
+/* 
   background-image: linear-gradient(
     to right top,
     #051937,
     #004d7a,
     #008793,
     #00bf72,
-    #a8eb12
-  );
-}
+    #a8eb12) */ 
+   /* background-image: repeating-linear-gradient(45deg, #d2e0fb, #79ac78 45px);  */
+} 
 
 /* Wrapper for text content */
 .content {
@@ -79,7 +79,7 @@ p {
 /** ----------------------- */
 
 /*? 1: Repeating gradient example:
-   background-image: repeating-linear-gradient(45deg, #d2e0fb, #79ac78 45px); */
+   background-image: repeating-linear-gradient(45deg, #d2e0fb, #79ac78 45px); 
 
 /*? 2: Color overlay on image example:
    background-image: linear-gradient(
