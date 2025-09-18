@@ -49,6 +49,7 @@ body {
 }
 
 img {
-  /*box-shadow: 0 0 0 40px #fff;
-  */ /*?filtershadowhere*/
+  /* box-shadow: 0 0 0 40px #fff; */
+  */ /*?filtershadowhere*/,
+  filter: drop-shadow(0 0 10px #fff);
 }
