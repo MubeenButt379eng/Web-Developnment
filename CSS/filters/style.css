@@ -73,6 +73,9 @@ img {
     rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
   /*-webkit-filter: opacity(1);
   */
+  /* filter:contrast() ;
+   */
+   filter:blur(1px);
 }
 
 /** ------------------------------------- -->
