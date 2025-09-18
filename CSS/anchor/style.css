@@ -85,3 +85,12 @@ img {
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
 }
+.hero-content a:visited{
+  color:bisque;
+}
+.hero-content a:hover{
+  color:blue
+}
+.hero-content a:active{
+  color:red;
+}
