@@ -50,10 +50,35 @@ const user = [
 ]
 
 user[1].email
-console.log(tinderUser);
+// console.log(tinderUser);
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+// console.log(Object.keys(tinderUser));
+// console.log(Object.values(tinderUser));
+// console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+
+
+//todo +++++++++++object de structureing +++++++++++
+
+const course ={
+    courseName: "javascript",
+    price: "999",
+    courseInstructor: "hitesh",
+}
+
+//* one way to de struct the object
+// const {courseInstructor}= course
+// console.log(courseInstructor);
+
+//* another way is 
+
+const {courseInstructor: instructor}=  course
+console.log(instructor);
+
+//todo Api study 
+
+// {
+//     "name": "mubeen",
+//     "courseName": "js in hindi",
+// }
