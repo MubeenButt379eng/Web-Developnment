@@ -31,7 +31,7 @@ body {
 
 #main-heading {
   color: #1e1403;
-  text-align: left;
+  text-align: center;
   margin-bottom: 30px;
 }
 
@@ -40,7 +40,7 @@ body {
   height: 800px;
   color: #fff;
   background: linear-gradient(to right, #514a9d, #24c6dc);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  box-shadow: rgba(10, 0, 0, 0.1) 0px 4px 12px;
   border-radius: 15px;
 }
 
@@ -67,7 +67,7 @@ body {
 .parent-div {
   position: relative;
   /* margin-left: 200px; */
-  left: 300px;
+  /* left: 300px; */
 }
 
 .child {
