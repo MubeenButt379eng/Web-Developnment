@@ -59,8 +59,11 @@ body {
   place-items: center;
   font-size: 3.2rem;
   color: #003180;
+  position: absolute;
 }
-
+.child-2{
+  z-index: 1;
+}
 /** ------------------------------------- -->
 /**  INTERVIEW IMPORTANT QUESTIONS
 /** ---------------------------------------- --> */
