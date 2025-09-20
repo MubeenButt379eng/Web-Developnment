@@ -60,6 +60,9 @@ p {
   padding: 10px;
 
   /* our code will start from here  */
+  /* overflow: hidden; */
+  /* overflow:scroll; */
+  overflow: auto;
 }
 
 .overflow-div-2 {
