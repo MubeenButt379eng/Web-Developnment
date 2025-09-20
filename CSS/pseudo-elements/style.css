@@ -58,9 +58,13 @@ body {
 }
 
 /* Before Pseudo element  */
-
+.hero-content h1 ::before{
+  content: "hello";
+}
 /* After Pseudo elements  */
-
+ .hero-content h1::after{
+  content: "Mubeen butt";
+ }
 .hero-content p {
   font-size: 18px;
   letter-spacing: 1px;
