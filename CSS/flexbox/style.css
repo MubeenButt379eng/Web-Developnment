@@ -94,13 +94,15 @@ body {
 }
 
 .flex-container {
-  width: 60%;
+  width: 80%;
   height: auto;
   padding: 50px 0;
   margin: 0 auto;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
   background: linear-gradient(to right, #514a9d, #24c6dc);
   color: #fff;
+  display: flex;
+
 
   /* flexbox container properties */
 }
@@ -113,7 +115,7 @@ body {
 /* To center items horizontally, you can use justify-content: center; on the flex container. */
 /* To center items vertically, you can use align-items: center; on the flex container. */
 
-/* .item {
+ .item {
     width: 100px;
     height: 100px;
     background-image: linear-gradient(to right top, #004d7a, #00bf72, #a8eb12);
@@ -125,7 +127,7 @@ body {
     font-weight: bold;
     padding: 0 1.6rem;
     flex: auto;
-  } */
+  }
 
 /* Here I will show them first how to center the text inplace of grid  */
 /* then delete the 3 div and let it be one and centering that div  */
