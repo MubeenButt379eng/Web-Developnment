@@ -31,4 +31,33 @@ return
 // const user = loginUser("mubeen")
 //  console.log(user);
 //todo or
-console.log(loginUser("Mubeen"));
+// console.log(loginUser("Mubeen"));
+
+
+
+
+function calculateCartPrice(...num1){
+    return num1
+}
+//  console.log(calculateCartPrice(5,200,400,600));
+
+const user ={
+    userName: "MUbeen",
+    price: 500,
+}
+function handleObject(anyObject){
+    console.log(`username is ${anyObject.userName} and price is ${anyObject.price}`);
+}
+// handleObject(user);
+//todo or
+handleObject({userName: "Ali", price: 600});
+
+
+const myArray= [200,400,100]
+function returnValue (getArray){
+    return getArray[1]
+
+}
+//  console.log(returnValue(myArray));
+//todo or 
+console.log(returnValue([300,600,900]));
