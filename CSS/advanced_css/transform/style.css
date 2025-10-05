@@ -80,7 +80,7 @@ body {
   /* transform: translate(400px); */ 
   /* scale:2; */
   /* transform: rotate(30deg); */
-  /* transform:skew(45deg) ; */
+  transform:skew(45deg) ;
 }
 /** ------------------------------------- -->
 /**  INTERVIEW QUESTIONS
