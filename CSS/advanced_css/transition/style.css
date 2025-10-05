@@ -96,8 +96,17 @@ a {
   width: 200px;
   text-align: center;
   /*?TRANSITION CODE STARTS HERE*/
+  transition-property: width;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+transition-delay: 4s;
 }
-
+.hero-content a:hover {
+  /* background-color: #fff;
+  color: #000; */
+  width:300px;
+}
+  /*?TRANSITION CODE ENDS
 /** ------------------------------------- -->
 /**  INTERVIEW QUESTIONS
 /** ---------------------------------------- --> */
