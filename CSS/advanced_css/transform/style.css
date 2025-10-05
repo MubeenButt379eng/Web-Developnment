@@ -76,7 +76,13 @@ body {
   -ms-transition: all 1s linear;
   -o-transition: all 1s linear;
 }
-
+.container img:hover{
+  /* transform: translate(400px); */ 
+  /* scale:2; */
+  /* transform: rotate(30deg); */
+  /* transform:skew(45deg) ; */
+  
+}
 /** ------------------------------------- -->
 /**  INTERVIEW QUESTIONS
 /** ---------------------------------------- --> */
