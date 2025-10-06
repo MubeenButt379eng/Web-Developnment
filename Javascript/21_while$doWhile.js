@@ -23,4 +23,3 @@ do {
     // console.log(`score si ${score}`);
     score++
 } while (score <= 10);
-
