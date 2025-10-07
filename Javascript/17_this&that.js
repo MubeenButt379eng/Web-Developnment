@@ -25,7 +25,8 @@ welcomeMessage: function(){
 // return a+b;
 // }
 
-const addTwo = (a , b)=>   a+b;
+// const addTwo = (a , b)=>   a+b;
+const addTwo = (a , b)=>   (a+b);
     
     
 console.log(addTwo(3,4));
