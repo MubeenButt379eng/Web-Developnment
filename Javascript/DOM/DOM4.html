@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul class="languague">
+        <li>java</li>
+    </ul>
+</body>
+<script>
+    function addLan (lang){
+        const li = document.createElement('li')
+        li.innerHTML =`${lang}`
+        document.querySelector('.languague').appendChild(li)
+    }
+    addLan("python")
+    addLan("cPP")
+
+    function addOpLan(langName){
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(langName));
+        // const addText = document.createTextNode(langName)
+        // li.appendChild(addText)
+
+        document.querySelector('.languague').appendChild(li)
+    }
+    addOpLan("golang")
+
+    //edit 
+    const secondLang= document.querySelector("li:nth-child(1)")
+   
+    // secondLang.innerHTML = "mojo"
+    const newLi = document.createElement('li')
+    newLi.textContent = "mojo"
+    secondLang.replaceWith(newLi)
+    
+
+const second = document.querySelector("li:nth-child(2)")
+    second.outerHTML = '<li>ruby</>'
+
+
+const lastLang= document.querySelector("li:last-child")
+lastLang.remove()
+</script>
+
+</html>
