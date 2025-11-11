@@ -1,0 +1,35 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Transition Example</title>
+  <style>
+    /* Container Div Styling */
+    div {
+      background-color: lime;
+      width: 400px;
+      height: 200px;
+      
+      transition: background-color 0.5s ease-in-out;
+    }
+    h1 {
+      color: blueviolet;
+      transition: transform 2s ease-in-out; /* Smooth animation */
+       
+    }
+    div:hover {
+      background-color: mediumseagreen;  
+    }
+ 
+    div:hover h1 {
+      transform: translateX(10vw) translateY(10vh);
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>Transition</h1>
+  </div>
+</body>
+</html>
