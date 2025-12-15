@@ -1,5 +1,10 @@
  
  //** object literal */
+ 
+// * Object literal JavaScript mein object banane ka sab se simple tareeqa hota hai.
+// *👉 Jab aap ko sirf aik object chahiye ho, to yeh best hota hai.
+
+
 const user={
     userName:"Abdul",
     loginCount: 8,
@@ -19,6 +24,10 @@ const user={
 //** (new) yeah ap ko allow krta hi k  ak hi object literal sy multiple instance bana sskaty hain */
 
 
+
+//** */ Constructor function tab use hota hai jab aap ko same structure ke multiple objects banane hon.
+//** */ 👉 new keyword use hota hai.
+ 
 function User(userName , logicalCount , isLoggedIn){
     this.userName = userName;
     this.logicalCount = logicalCount;
