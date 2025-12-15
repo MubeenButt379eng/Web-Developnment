@@ -1,7 +1,7 @@
 #JavaScript and classes
 ## OOP 
 
-## Object (it is a collection of property and method)
+## Object(literal) (it is a collection of property and method)
 
 ## to lower case
 
