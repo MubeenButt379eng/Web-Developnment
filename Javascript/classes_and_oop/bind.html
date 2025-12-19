@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button>Button clicked</button>
+</body>
+<script>d
+    class React {
+        constructor(parameters) {
+            this.library = "React"
+            this.server = 'https//localhost'
+
+            //requirement
+            document.querySelector('button').addEventListener('click',this.handleCLick.bind(this))
+        }
+
+        handleCLick(){
+            console.log(`button clicked`);
+            console.log(this.server);
+        }
+    }
+    const app = new React()
+</script>
+</html>
+<!-- * bind() future ke liye this ko lock kar deta hai -->
+<!-- *JavaScript mein bind() aik bohat important method hai jo kisi function ke this keyword ko permanently kisi khaas object ke saath "baandh" (bind) deta hai. -->
+
+
+<!-- 
+const person = {
+    name: "Zeeshan",
+    greet: function() {
+        console.log(`Assalam-o-Alaikum, mein hoon ${this.name}`);
+    }
+};
+
+const secondPerson = { name: "Ali" };
+
+Agar hum greet ko direct nikaal kar save karein:
+let greetAli = person.greet.bind(secondPerson); 
+
+Ab 'greetAli' aik naya function hai jahan 'this' hamesha 'secondPerson' rahega
+greetAli(); // Output: Assalam-o-Alaikum, mein hoon Ali -->
